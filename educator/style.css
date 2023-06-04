@@ -40,7 +40,7 @@
 	* Blog Single Pages
 	* Career Pages
 	* Career Detail Pages
-	* Categories page
+	* Courses page
 	* Comming Soon Pages
 	* Contact Pages
 	* FAQ Pages
@@ -8380,60 +8380,60 @@ product slider range for price css
 }
 
 /*--------------------------------------------------------------
->>> categories Pages
+>>> Courses Pages
 ----------------------------------------------------------------*/
-.categories-section {
+.Courses-section {
   margin-bottom: 110px;
   position: relative;
   z-index: 1;
 }
 @media screen and (max-width: 767px) {
-  .categories-section {
+  .Courses-section {
     margin-bottom: 80px;
   }
 }
-.categories-section .pattern-overlay {
+.Courses-section .pattern-overlay {
   background-image: url(assets/img/educator-img5.png);
   background-size: 11% auto;
   background-repeat: no-repeat;
   background-position: bottom right;
   opacity: 0.5;
 }
-.categories-section .service-wrapper {
+.Courses-section .service-wrapper {
   position: relative;
   z-index: 1;
 }
-.categories-section .service-wrapper .pattern-circle {
+.Courses-section .service-wrapper .pattern-circle {
   background-image: url(assets/img/educator-img4.png);
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.2;
 }
-.categories-section .service-wrapper .service-content {
+.Courses-section .service-wrapper .service-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 45px;
 }
 @media screen and (max-width: 991px) {
-  .categories-section .service-wrapper .service-content {
+  .Courses-section .service-wrapper .service-content {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 575px) {
-  .categories-section .service-wrapper .service-content {
+  .Courses-section .service-wrapper .service-content {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.categories-section .service-wrapper .course-type {
+.Courses-section .service-wrapper .course-type {
   border: 2px dashed #d9d9d9;
   border-radius: 25px;
   padding: 40px;
   text-align: center;
 }
-.categories-section .service-wrapper .course-type .course-icon {
+.Courses-section .service-wrapper .course-type .course-icon {
   margin-bottom: 25px;
 }
-.categories-section .service-wrapper .course-type .course-icon i {
+.Courses-section .service-wrapper .course-type .course-icon i {
   font-size: 50px;
   padding: 45px;
   display: inline-block;
@@ -8441,40 +8441,40 @@ product slider range for price css
   background-color: #f8f8f8;
   color: #41246D;
 }
-.categories-section .service-wrapper .course-type .course-title {
+.Courses-section .service-wrapper .course-type .course-title {
   margin-bottom: 10px;
 }
-.categories-section .service-wrapper .course-type .course-durations {
+.Courses-section .service-wrapper .course-type .course-durations {
   margin-bottom: 0;
   color: #F24080;
 }
 
-.categories-goal-section {
+.Courses-goal-section {
   background-color: #ffffff;
 }
 
-.categories-progress-section {
+.Courses-progress-section {
   background-color: #f8f8f8;
   padding: 300px 15px 100px 15px;
 }
-.categories-progress-section .counter-inner .counter-item {
+.Courses-progress-section .counter-inner .counter-item {
   border-color: rgba(242, 64, 128, 0.2);
 }
 @media screen and (max-width: 991px) {
-  .categories-progress-section .counter-inner .counter-item {
+  .Courses-progress-section .counter-inner .counter-item {
     border-color: rgba(242, 64, 128, 0.2);
   }
 }
 @media screen and (max-width: 575px) {
-  .categories-progress-section .counter-inner .counter-item {
+  .Courses-progress-section .counter-inner .counter-item {
     border-color: rgba(242, 64, 128, 0.2);
   }
 }
-.categories-progress-section .counter-inner .counter-item .counter-no {
+.Courses-progress-section .counter-inner .counter-item .counter-no {
   color: #41246D;
   font-size: 60px;
 }
-.categories-progress-section .counter-inner .counter-item .Completed {
+.Courses-progress-section .counter-inner .counter-item .Completed {
   color: #F24080;
   font-family: "Mulish", sans-serif;
   font-size: 18px;

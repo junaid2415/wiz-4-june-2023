@@ -6,7 +6,7 @@
 /*--- top header css start ---*/
 .top-header {
     padding: 12px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+    border-bottom: 1px solid rgba(255, 255, 255,1);
     @include bp(lgx) {
         padding: 0;
     }

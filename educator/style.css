@@ -1904,7 +1904,6 @@ input[type=submit]:focus {
 /*--- top header css start ---*/
 .top-header {
   padding: 12px 0;
-  background-color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.11);
 }
 @media screen and (max-width: 991px) {
@@ -2453,6 +2452,7 @@ input[type=submit]:focus {
 
 /*---  fixed header css ---*/
 .bottom-header {
+  background: white;
   -webkit-transition: background-color 0.5s linear;
   -moz-transition: background-color 0.5s linear;
   -ms-transition: background-color 0.5s linear;
@@ -2508,11 +2508,11 @@ input[type=submit]:focus {
   color: #961040;
 }
 .fixed-header .site-title img {
-  filter: invert(100%) saturate(100%) hue-rotate(154deg) sepia(19%) contrast(200%);
+  /* filter: invert(100%) saturate(100%) hue-rotate(154deg) sepia(19%) contrast(200%); */
 }
 .fixed-header .site-title img:hover {
   opacity: 1;
-  filter: invert(100%) saturate(100%) hue-rotate(277deg) sepia(19%) contrast(500%);
+  /* filter: invert(100%) saturate(100%) hue-rotate(277deg) sepia(19%) contrast(500%); */
 }
 @media screen and (max-width: 991px) {
   .fixed-header .mobile-menu-container {

@@ -3510,7 +3510,7 @@ input[type=submit]:focus {
 @media screen and (max-width: 575px) {
   .home-fact-section .fact-right-inner-wrap .fact-inner-box .top-left-content {
     padding: 15px 10px;
-    border-radius: 100% 100% 0% 0%;
+    border-radius: 0% 0% 0% 0%;
     justify-content: center;
   }
 }
@@ -3534,7 +3534,7 @@ input[type=submit]:focus {
 @media screen and (max-width: 575px) {
   .home-fact-section .fact-right-inner-wrap .fact-inner-box .bottom-right-content {
     padding: 15px 10px;
-    border-radius: 0% 0% 100% 100%;
+    border-radius: 0% 0% 0% 0%;
     justify-content: center;
   }
 }

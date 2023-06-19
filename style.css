@@ -2821,6 +2821,7 @@ input[type=submit]:focus {
 }
 .home-banner .banner-content {
   margin-right: 30px;
+  margin-top: 30px;
   padding-top: 32px;
   padding-bottom: 160px;
 }
@@ -2841,6 +2842,7 @@ input[type=submit]:focus {
 }
 .home-banner .banner-content .banner-title h1 {
   color: #ffffff;
+  margin-top: 30px;
 }
 .home-banner .banner-content .banner-text p {
   color: #f8f8f8;
